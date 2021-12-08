@@ -1,34 +1,9 @@
-import React from "react";
 import { Pie } from "@ant-design/charts";
 import { Layout, Row } from "antd";
+import data from '../dummy_data/promotions';
 
-const PieCharts = () => {
-  const data = [
-    {
-      type: "Category One",
-      value: 27,
-    },
-    {
-      type: "Category Two",
-      value: 25,
-    },
-    {
-      type: "Category Three",
-      value: 18,
-    },
-    {
-      type: "Category Four",
-      value: 15,
-    },
-    {
-      type: "Category Five",
-      value: 10,
-    },
-    {
-      type: "Other",
-      value: 5,
-    },
-  ];
+// Pie chart
+const Promotions = () => {
   const config = {
     appendPadding: 10,
     data,
@@ -54,6 +29,6 @@ const PieCharts = () => {
       </Row>
     </Layout>
   );
-};
+}
 
-export default PieCharts;
+export default Promotions

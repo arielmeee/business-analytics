@@ -1,24 +1,8 @@
-import React, { useState, useEffect } from "react";
+import data from '../dummy_data/purchases';
 import { Line } from "@ant-design/charts";
 
-const LineChart = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    asyncFetch();
-  }, []);
-
-  const asyncFetch = () => {
-    fetch(
-      "https://gw.alipayobjects.com/os/bmw-prod/1d565782-dde4-4bb6-8946-ea6a38ccf184.json"
-    )
-      .then((response) => response.json())
-      .then((json) => setData(json))
-      .catch((error) => {
-        console.log("fetch data failed", error);
-      });
-  };
-
+// Line chart
+const Purchases = () => {
   const config = {
     data,
     padding: "auto",
@@ -54,9 +38,10 @@ const LineChart = () => {
   };
 
   return (
-    <div style={{ padding: "10%", marginTop: "-200px" }}>
+    <div style={{ padding: "10%" }}>
       <Line {...config} />
     </div>
   );
-};
-export default LineChart;
+}
+
+export default Purchases
