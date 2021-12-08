@@ -1,11 +1,11 @@
-//import './App.css';
-import Dashboard from './components/dashboard/Dashboard';
+import Dashboard from './components/dashboard';
+import Page from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard/>
-    </div>
+    <Dashboard>
+      <Page />
+    </Dashboard>
   );
 }
 
