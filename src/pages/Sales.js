@@ -36,7 +36,7 @@ const Sales = () => {
   };
 
   return (
-    <div style={{ padding: "10%" }}>
+    <div style={{ padding: "5%" }}>
       <Column {...config} />
     </div>
   );

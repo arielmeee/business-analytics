@@ -19,7 +19,7 @@ const SideNav = () => {
         className="cursor-pointer"
         onClick={() => goto(PAGE.PROMOTION)}
       >
-        Promotions
+        Product Stocks
       </li>
       <li
         className="cursor-pointer"

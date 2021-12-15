@@ -1,27 +1,23 @@
 const data = [
   {
-    type: "Category One",
+    type: "RRJ",
     value: 27,
   },
   {
-    type: "Category Two",
+    type: "Nike",
     value: 25,
   },
   {
-    type: "Category Three",
+    type: "Versace",
     value: 18,
   },
   {
-    type: "Category Four",
+    type: "Lacoste",
     value: 15,
   },
   {
-    type: "Category Five",
+    type: "Oxygn",
     value: 10,
-  },
-  {
-    type: "Other",
-    value: 5,
   },
 ];
 

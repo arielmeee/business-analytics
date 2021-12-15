@@ -79,6 +79,126 @@ const data = [
     month: "Aug.",
     revenue: 42.4,
   },
+  {
+    name: "Versace",
+    month: "Jan.",
+    revenue: 20.8,
+  },
+  {
+    name: "Lacoste",
+    month: "Jan.",
+    revenue: 22,
+  },
+  {
+    name: "Oxygn",
+    month: "Jan.",
+    revenue: 24,
+  },
+  {
+    name: "Versace",
+    month: "Feb.",
+    revenue: 26.9,
+  },
+  {
+    name: "Lacoste",
+    month: "Feb.",
+    revenue: 20.4,
+  },
+  {
+    name: "Oxygn",
+    month: "Feb.",
+    revenue: 29,
+  },
+  {
+    name: "Versace",
+    month: "Mar.",
+    revenue: 32.6,
+  },
+  {
+    name: "Lacoste",
+    month: "Mar.",
+    revenue: 38,
+  },
+  {
+    name: "Oxygn",
+    month: "Mar.",
+    revenue: 30.7,
+  },
+  {
+    name: "Versace",
+    month: "Apr.",
+    revenue: 50.8,
+  },
+  {
+    name: "Lacoste",
+    month: "Apr.",
+    revenue: 64.3,
+  },
+  {
+    name: "Oxygn",
+    month: "Apr.",
+    revenue: 85.8,
+  },
+  {
+    name: "Versace",
+    month: "May",
+    revenue: 56.2,
+  },
+  {
+    name: "Lacoste",
+    month: "May",
+    revenue: 70.6,
+  },
+  {
+    name: "Oxygn",
+    month: "May",
+    revenue: 38.8,
+  },
+  {
+    name: "Versace",
+    month: "Jun.",
+    revenue: 32.7,
+  },
+  {
+    name: "Lacoste",
+    month: "Jun.",
+    revenue: 27,
+  },
+  {
+    name: "Oxygn",
+    month: "Jun.",
+    revenue: 55.3,
+  },
+  {
+    name: "Versace",
+    month: "Jul.",
+    revenue: 30.5,
+  },
+  {
+    name: "Lacoste",
+    month: "Jul.",
+    revenue: 36.9,
+  },
+  {
+    name: "Oxygn",
+    month: "Jul.",
+    revenue: 40.5,
+  },
+  {
+    name: "Versace",
+    month: "Aug.",
+    revenue: 23.7,
+  },
+  {
+    name: "Lacoste",
+    month: "Aug.",
+    revenue: 60,
+  },
+  {
+    name: "Oxygn",
+    month: "Aug.",
+    revenue: 48.8,
+  },
 ]
 
 export default data
