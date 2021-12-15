@@ -19,7 +19,7 @@ const Purchases = () => {
       {
         type: "text",
         position: ["min", "median"],
-        content: "中位数",
+        content: "Median",
         offsetY: -4,
         style: {
           textBaseline: "bottom",
