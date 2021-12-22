@@ -11,21 +11,21 @@ const SideNav = () => {
      >
       <li
         className="cursor-pointer"
-        onClick={() => goto(PAGE.SALES)}
+        onClick={() => goto(PAGE.MONTHLY)}
       >
-        Sales
+        Monthly
       </li>
       <li
         className="cursor-pointer"
-        onClick={() => goto(PAGE.PROMOTION)}
+        onClick={() => goto(PAGE.PREFERENCES)}
       >
-        Product Stocks
+        Preferences
       </li>
       <li
         className="cursor-pointer"
-        onClick={() => goto(PAGE.PURCHASES)}
+        onClick={() => goto(PAGE.ANNUAL)}
       >
-        Purchases
+        Annual
       </li>
     </ul>
   )
