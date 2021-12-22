@@ -1,14 +1,14 @@
 import { createContext, useState } from "react";
-import { SALES } from "../constants/page";
+import { MONTHLY } from "../constants/page";
 
 // Adding default values for better intellisence
 const PageContext = createContext({
-  currentPage: SALES,
+  currentPage: MONTHLY,
   goto: (page) => {}
 })
 
 export function PageContextProvider ({ children }) {
-  const [page, setPage] = useState(SALES);
+  const [page, setPage] = useState(MONTHLY);
   // Determine what component to render
   const gotoHandler = (page) => {
     setPage(page)

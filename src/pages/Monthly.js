@@ -1,8 +1,8 @@
 import { Column } from "@ant-design/charts";
-import data from '../dummy_data/sales';
+import data from '../dummy_data/monthly';
 
 // Column chart
-const Sales = () => {
+const Monthly = () => {
   const config = {
     data,
     isGroup: true,
@@ -36,10 +36,15 @@ const Sales = () => {
   };
 
   return (
-    <div style={{ padding: "5%" }}>
-      <Column {...config} />
-    </div>
+    <>
+      <h4 className="py-5 px-4 text-lg font-semibold antialiased">
+        Monthly Sales Report
+      </h4>
+      <div className="px-7">
+        <Column {...config} />
+      </div>
+    </>
   );
 }
 
-export default Sales
+export default Monthly

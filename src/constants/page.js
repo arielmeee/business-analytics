@@ -1,3 +1,3 @@
-export const SALES = "SALES";
-export const PURCHASES = "PURCHASES";
-export const PROMOTION = "PROMOTION";
+export const MONTHLY = "MONTHLY";
+export const ANNUAL = "ANNUAL";
+export const PREFERENCES = "PREFERENCES";

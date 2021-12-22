@@ -1,17 +1,17 @@
 import { useContext } from 'react';
-import * as ROUTE from '../constants/page';
+import * as PAGE from '../constants/page';
 import PageContext from '../context/PageContext';
-import Promotions from './Promotions';
-import Purchases from './Purchases';
-import Sales from './Sales';
+import Preferences from './Preferences';
+import Annual from './Annual';
+import Monthly from './Monthly';
 
 const Pages = () => {
   const { currentPage } = useContext(PageContext);
   
   switch (currentPage) {
-    case ROUTE.PROMOTION: return (<Promotions />)
-    case ROUTE.PURCHASES: return (<Purchases />)
-    default: return (<Sales />)
+    case PAGE.PREFERENCES: return (<Preferences />)
+    case PAGE.ANNUAL: return (<Annual />)
+    default: return (<Monthly />)
   }
 }
 

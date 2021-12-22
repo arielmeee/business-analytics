@@ -1,8 +1,8 @@
-import data from '../dummy_data/purchases';
+import data from '../dummy_data/annual';
 import { Line } from "@ant-design/charts";
 
 // Line chart
-const Purchases = () => {
+const Annual = () => {
   const config = {
     data,
     padding: "auto",
@@ -38,10 +38,15 @@ const Purchases = () => {
   };
 
   return (
-    <div style={{ padding: "10%" }}>
-      <Line {...config} />
-    </div>
+    <>
+      <h4 className="py-5 px-4 text-lg font-semibold antialiased">
+        Annual Sales Report
+      </h4>
+      <div className="px-7">
+        <Line {...config} />
+      </div>
+    </>
   );
 }
 
-export default Purchases
+export default Annual
