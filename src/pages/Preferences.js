@@ -12,6 +12,10 @@ const Preferences = () => {
     radius: 0.8,
     label: {
       type: "outer",
+      content: function content(_ref) {
+        var percent = _ref.percent;
+        return ''.concat(percent * 100, '%');
+      },
     },
     interactions: [
       {
