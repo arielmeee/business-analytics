@@ -1,0 +1,84 @@
+.h3{
+    transform: rotate(-90deg);
+    font-weight: bolder;
+    position: relative;
+    top: -9cm;
+    right: 17cm;
+    margin: auto;
+}
+
+@media screen and (min-width: 400px) and (max-width:700px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 25ch;
+    }
+}
+
+
+
+/*
+@media screen and (min-width: 360px) and (max-width:640px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 18ch;
+    }
+}
+@media screen and (min-width: 411px) and (max-width:731px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 20ch;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:568px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 15ch;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:667px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 18ch;
+    }
+}
+@media screen and (min-width: 414px) and (max-width:736px){
+    .h3{
+        position: relative;
+        top: 2cm;
+        right: 20ch;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .h3{
+        position: relative;
+        top: -3cm;
+        right: 39ch;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1366px){
+    .h3{
+        position: relative;
+        top: -5cm;
+        right: 44ch;
+    }
+}
+@media screen and (min-width: 540px) and (max-width:720px){
+    .h3{
+        position: relative;
+        top: -1cm;
+        right: 27ch;
+    }
+}
+@media screen and (min-width: 280px) and (max-width:653px){
+    .h3{
+        position: relative;
+        top: 4cm;
+        right: 13ch;
+    }
+}
+*/
