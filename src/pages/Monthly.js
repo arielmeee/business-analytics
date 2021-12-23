@@ -1,5 +1,7 @@
 import { Column } from "@ant-design/charts";
-import data from '../dummy_data/monthly';
+import data from "../dummy_data/monthly";
+import { Row, Col } from "antd";
+import "../css/monthly.css";
 
 // Column chart
 const Monthly = () => {
@@ -41,10 +43,22 @@ const Monthly = () => {
         Monthly Sales Report
       </h4>
       <div className="px-7">
-        <Column {...config} />
+      <div>
+      <h4 className="h3" id="h3">
+        SALES (IN THOUSANDS)
+      </h4>
+      </div>
+        <Column {...config} style={{marginLeft:"10px"}}/>
+        <Row>
+          <Col>
+            <h4 className="py-5 px-4 text-lg font-semibold antialiased" style={{textAlign:"center"}}>
+              MONTH
+            </h4>
+          </Col>
+        </Row>
       </div>
     </>
   );
-}
+};
 
-export default Monthly
+export default Monthly;

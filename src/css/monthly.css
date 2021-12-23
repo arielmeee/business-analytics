@@ -1,0 +1,31 @@
+.h3{
+    transform: rotate(-90deg);
+    font-weight: bolder;
+    position: relative;
+    top: -9cm;
+    right: 17cm;
+    margin: auto;
+}
+
+@media screen and (min-width: 400px) and (max-width:700px){
+    #h3{
+        position: relative;
+        top: 2cm;
+        right: 25ch;
+    }
+}
+
+@media  screen and (max-width: 1920px) {
+    .h3{
+        position: relative;
+        top: -9cm;
+        right: 70ch;
+    }
+}
+@media  screen and (max-width: 1366px) {
+    .h3{
+        position: relative;
+        top: -6cm;
+        right: 60ch;
+    }
+}
