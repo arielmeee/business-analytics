@@ -44,7 +44,7 @@ const Annual = () => {
         Annual Sales Report
       </h4>
       <div>
-      <h4 className="h3">
+      <h4 className="h3" id="h3">
         SALES (IN THOUSANDS)
       </h4>
       </div>
